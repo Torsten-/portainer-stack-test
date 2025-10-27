@@ -7,5 +7,3 @@ services:
     healthcheck:
       test: ["CMD-SHELL", "pg_isready"]
       start_period: 30s
-    environment:
-      - WUD_TRIGGER_COMMAND_LOCAL_CMD=sh /wud/test.sh
