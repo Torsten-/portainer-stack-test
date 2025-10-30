@@ -2,7 +2,6 @@
 services:
   stack_test:
     image: postgres:14.17
-    container_name: stack_test
     restart: always
     healthcheck:
       test: ["CMD-SHELL", "pg_isready"]
