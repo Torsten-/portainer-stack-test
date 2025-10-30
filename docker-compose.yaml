@@ -1,7 +1,7 @@
 ---
 services:
   stack_test:
-    image: postgres:14.19
+    image: postgres:18.0
     restart: always
     healthcheck:
       test: ["CMD-SHELL", "pg_isready"]
