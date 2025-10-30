@@ -1,7 +1,7 @@
 ---
 services:
   stack_test:
-    image: postgres:13.20
+    image: postgres:13.22
     container_name: stack_test
     restart: always
     healthcheck:
